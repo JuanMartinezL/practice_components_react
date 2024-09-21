@@ -4,6 +4,7 @@ import { Child } from './components/Child';
 // import { MyFirstComponent } from './components/MyFirstComponent';
 // import { SecondComponent } from './components/SecondComponent';
 import { ThirdComponent } from './components/ThirdComponent';
+import { FourthComponent } from './components/FourthComponent';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <FourthComponent />
         <h1>Fundamentos de React</h1>
         <hr className='white-hr'/>
         {/* <MyFirstComponent /> */}
@@ -30,7 +32,9 @@ function App() {
         />
         <hr className='white-hr'/>
       </header>
-    </div>
+      
+
+        </div>
   )
 };
 
