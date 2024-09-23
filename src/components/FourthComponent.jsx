@@ -43,7 +43,7 @@ export const FourthComponent = () => {
         </div>
         <div>
           <button className="btn btn-success"
-            onClick={ e => handleClicked(e, "Inés") }>
+            onClick={ e => handleClicked(e, "Juan") }>
             ¡Aquí también haz click!
           </button>
         </div>
